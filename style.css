@@ -1,3 +1,5 @@
+
+
 .header{
     text-decoration: none;
     color: #424242;
@@ -55,7 +57,8 @@
 
 .ourpback{
     background-color: #05c2cf;
-    padding: 5px 167px 0px 53px;   
+    padding: 5px 167px 0px 53px;
+       
 }
 
 
@@ -130,6 +133,7 @@
     font-weight: 300;
     font-size: 17px;
     line-height: 1.8;
+    max-width: 600px;
 }
 
 .cusn{
@@ -159,17 +163,14 @@
 
 .customerp2{
     width: 300px;
-    margin-top: -430px;
-    float: right;
-    position: relative;
-    margin-right: 300px;
+    margin-top: 0px;
+    position: absolute;
+   
+    
+    
 }
 
-.customer2{
-    width: 400px;
-    float: right;
-    margin-left: 550px;
-}
+
 
 .appimg{
     width: 240px;
@@ -202,8 +203,10 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 70px; margin-right: 70px;
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-bottom: 50px;
     margin-top: 60px;
+   background-size: 50%;
 }
 
 .f18{
@@ -222,3 +225,51 @@
 .ff{
     color: #979797;
 }
+
+.cn{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.cn1{
+    color: #ffb142;
+}
+
+.cn2{
+    color: #a55eea;
+}
+
+.cp1{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: flex-start;
+}
+
+.crl1{
+    position: absolute;
+    margin-top: 180px;
+}
+
+.crl2{
+    margin-right: -59px;
+    margin-top: -199px;
+}
+
+
+.ppo{
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 550px;
+}
+
+
+.cpt{
+    font-family: "Lato", sans-serif; 
+    color: #979797;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 550px;}
